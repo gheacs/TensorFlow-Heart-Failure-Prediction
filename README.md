@@ -5,8 +5,8 @@ Cardiovascular diseases (CVDs) stand as the leading cause of death globally, cla
 
 ## Dataset Description
 The dataset, sourced from Kaggle, encompasses 12 features that are instrumental in forecasting heart failure mortality. These features include:
-1. Age
-2 Anaemia
+1. Age  
+2. Anaemia
 3. Serum creatinine
 4. Ejection fraction
 5. Diabetes
