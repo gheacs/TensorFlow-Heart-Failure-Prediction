@@ -33,7 +33,17 @@ python app.py
 ```
 
 ## Model and Analysis
-
+- Framework: TensorFlow's Keras API.
+- Architecture:
+    Input Layer: Matches the number of features in the dataset.
+    Hidden Layers: Dense layers with ReLU activation.
+    Output Layer: Dense layer with softmax activation for categorical output.
+- Compilation: The model uses categorical_crossentropy for loss, adam as the optimizer, and evaluates accuracy
 
 ## Insights and findings from the analysis.
+1 The model performs better in identifying class 0 than class 1, as evidenced by higher recall and F1-score for class 0.  
+2. The precision is similar for both classes, indicating a balanced performance in terms of positive prediction accuracy.  
+3. The overall accuracy of 0.68 suggests that the model correctly predicts the class 68% of the time across the entire dataset.  
+4. The macro and weighted averages provide a holistic view of the model's performance across the classes.  
+
 
