@@ -26,12 +26,6 @@ cd your-project-directory
 pip install -r requirements.txt
 ```
 
-## Usage
-To run the prediction model:
-```bash
-python app.py
-```
-
 ## Model and Analysis
 - Framework: TensorFlow's Keras API.
 - Architecture:
